@@ -1,0 +1,4 @@
+rf:
+  path: .mlem/model/rf.mlem
+  type: model
+  virtual: false
