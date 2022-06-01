@@ -11,6 +11,7 @@ def main():
     y_pred = apply("rf", data, method="predict_proba")
     roc_auc = metrics.roc_auc_score(y_true, y_pred, multi_class="ovr")
 
+    # Save metrics
     with open("metrics.json", "w") as fd:
         json.dump({"roc_auc": roc_auc}, fd, indent=4)
 
