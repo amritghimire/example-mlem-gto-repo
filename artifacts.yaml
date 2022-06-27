@@ -1,3 +1,10 @@
+model-test:
+  description: A description for new model
+  labels:
+  - mlem
+  - test
+  path: .mlem/model/rf
+  type: model
 rf:
   path: .mlem/model/rf.mlem
   type: model
