@@ -9,3 +9,7 @@ rf:
   path: .mlem/model/rf.mlem
   type: model
   virtual: false
+test-model:
+  description: Description
+  path: s3://bucket1/path2
+  type: model
